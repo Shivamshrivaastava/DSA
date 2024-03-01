@@ -20,5 +20,6 @@
     },
     "accessibility.signals.taskCompleted": {
         "sound": "off"
-    }
+    },
+    "java.debug.settings.onBuildFailureProceed": true
 }
