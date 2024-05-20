@@ -1,5 +1,4 @@
 {
-    "accessibility.signals.sounds.volume": 0,
     "accessibility.accessibleView.closeOnKeyPress": false,
     "accessibility.verbosity.keybindingsEditor": false,
     "accessibility.verbosity.emptyEditorHint": true,
@@ -15,11 +14,14 @@
     "accessibility.signals.chatRequestSent": {
         "sound": "off"
     },
-    "accessibility.signals.chatResponsePending": {
-        "announcement": "off"
-    },
     "accessibility.signals.taskCompleted": {
         "sound": "off"
     },
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "accessibility.signalOptions": {
+        "volume": 0
+    },
+    "accessibility.signals.progress": {
+        "announcement": "off"
+    }
 }
